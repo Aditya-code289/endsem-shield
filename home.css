@@ -1,0 +1,128 @@
+body{
+    background-image: url(https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?cs=srgb&dl=pexels-adrien-olichon-1257089-2387793.jpg&fm=jpg);
+
+}
+#heading{
+    color: rgb(198, 229, 255);
+    font-size: 15px;
+    position:absolute;
+    left:10%;
+    top:3%;
+    border: 1.5px solid #ddd;
+    border-radius: 12px;
+    outline: none;
+    background: rgba(40, 45, 43, 0.873);
+    backdrop-filter: blur(4px);
+    width:270px;
+    height:60px;
+    padding-left: 7%;
+    padding-bottom:7%;
+}
+
+#welcome{
+    position: absolute;
+    top:22%;
+    left: 17%;
+    color:rgb(181, 169, 155);
+    font-size: 48px;
+
+}
+#to{
+    color:rgb(181, 169, 155) ;
+    font-size:18px;
+    position:absolute;
+    top:32%;
+    left:26%;
+
+}
+#branch{
+    position:absolute;
+    top:44%;
+    left:16%;
+    background-color: azure;
+    border:solid rgb(172, 172, 172);
+    border-radius: 12px;
+    color:rgb(0, 0, 0);
+    background-color: bisque;
+    width:230px;
+    height:40px;
+    font-size: 20px;
+    text-align: center  ;
+
+
+}
+
+#subj{
+    position: absolute;
+    top:55%;
+    left:5%;
+    color:beige;
+    font-size: 22px;
+}
+
+#subject{
+    position: absolute;
+    top:55%;
+    left:5%;
+    color:beige;
+}
+label{
+    display:block;
+    margin-bottom: 5px;
+}
+
+#inputs{
+    color:rgb(188, 188, 188);
+    font:bold;
+    position:absolute;
+    top:130%;
+    left:9%;
+
+}
+#inputs_without_lab{
+    color:rgb(188, 188, 188);
+    font:bold;
+    position:absolute;
+    top:130%;
+    left:9%;
+
+}
+
+#mid_sem,
+#lab,
+#TA,
+#expected,
+#mid_sem_2,
+#TA_2,
+#expected_2{
+    border-radius: 12px;
+    background-color: blanchedalmond;
+    width:90px;
+    height:20px;
+}
+#submit{
+    position: absolute;
+    top:172%;
+    left:10%;
+    border-radius: 12px;
+    background-color: blanchedalmond;
+    width:70px;
+    height:20px;
+
+}
+#answer{
+    position:absolute;
+    top:180%;
+    left:3%;
+    border:solid #ddd;
+    border-radius: 12px;
+    color:antiquewhite;
+    font:bold;
+    width:340px;
+    height:50px;    
+}
+
+.hidden{
+    display: none;
+    opacity: 0;
+}

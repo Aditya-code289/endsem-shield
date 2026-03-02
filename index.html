@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Marks 2.0</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div id="heading">
+        <h1>EndSem Shield</h1>
+    </div>
+
+    <div>
+        <span id="welcome"><b>Welcome!</b> </span>
+        <span id="to">To <b>EndSem Shield</b></span>
+    </div>
+
+    <div>
+        <select id="branch">
+            <option value=""><b>Select Your Branch</b></option>
+            <option value="CSE">CSE</option>
+            <option value="CSA">CSA</option>
+            <option value="CSD">CSD</option>
+            <option value="HCIGT">HCIGT</option>
+            <option value="ECE">ECE</option>
+            <option value="ECI">ECI</option>
+        </select>
+    </div>
+    
+    <div id="subjects_section" class="hidden">
+        <fieldset id="subj">
+            <legend>Choose the Subject: </legend>
+            <div id="subjects"></div>
+        </fieldset>
+    </div>
+
+    <form id="inputs" class="hidden">
+        <label> Mid-Sem Marks: </label>
+        <input type="number" min="0" max="30" id="mid_sem" placeholder="0-30">
+        <label>Lab Marks:</label>
+        <input type="number" min="0" max="25" id="lab" placeholder="0-25">
+        <label>TA Marks:</label>
+        <input type="number" min="0" max="20" id="TA" placeholder="0-20">
+        <label>Expected Highest Marks:</label>
+        <input type="number" min="0" max="100" id="expected" placeholder="0-100">
+    </form>
+
+    <form id="inputs_without_lab" class="hidden">
+        <label> Mid-Sem Marks: </label>
+        <input type="number" min="0" max="30" id="mid_sem_2" placeholder="0-30">
+        <label>TA Marks:</label>
+        <input type="number" min="0" max="20" id="TA_2" placeholder="0-20">
+        <label>Expected Highest Marks:</label>
+        <input type="number" min="0" max="100" id="expected_2" placeholder="0-100">
+    </form>
+
+
+    <button id="submit" class="hidden"><b>Enter</b></button>
+
+    <div>
+        <span id="answer" class="hidden"> </span>
+    </div>
+
+
+
+
+</body>
+<script src="logic.js"></script>
+</html>
