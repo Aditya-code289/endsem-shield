@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const branch=document.querySelector("#branch");
 const subjects= document.querySelector("#subjects");
 const subj_sec=document.querySelector('#subjects_section')
@@ -281,5 +280,3 @@ submit.addEventListener('click',()=>{
     
 
 })
-
->>>>>>> 2c6b349de5fa4729b73bfbaa6efd959d89eea4ca
